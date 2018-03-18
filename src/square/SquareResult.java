@@ -6,6 +6,7 @@ package square;
 public class SquareResult {
     private final int input;
     private final int output;
+    // Rep invariant: true
     
     /**
      * Make a new result message.

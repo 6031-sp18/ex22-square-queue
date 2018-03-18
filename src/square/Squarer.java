@@ -9,7 +9,7 @@ public class Squarer {
     
     private final BlockingQueue<Integer> in;
     private final BlockingQueue<SquareResult> out;
-    // Rep invariant: in, out != null
+    // Rep invariant: true
     
     /**
      * Make a squarer that will listen for requests and generate replies.
